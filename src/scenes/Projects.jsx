@@ -33,7 +33,7 @@ const Project = ({ title, codeLink }) => {
         </a>
         )} 
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
   );
 };
